@@ -1,3 +1,9 @@
-c = float(input('Digite a temperatura em Celsius (Apenas Números)'))
-f = (c * 9/5) + 32
-print (f'{c}°C em Fahrenheit é {f}')
+# Código Original
+# celsius = float(input('Digite a temperatura em Celsius (Apenas Números)'))
+# fahrenheit = (celsius * 9/5) + 32
+# print(f'{celsius}°C em Fahrenheit é {fahrenheit}')
+
+# Desafio da aula 11
+celsius = float(input('\033[33mDigite a temperatura em Celsius (Apenas Números)'))
+fahrenheit = (celsius * 9/5) + 32
+print(f'{celsius}°C em Fahrenheit é {fahrenheit}')
